@@ -1,0 +1,31 @@
+.filters-container {
+  display: flex;
+  flex-direction: column;
+}
+.employee-heading {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.unordered-employees-list-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 8px;
+}
+.each-employee-item {
+  color: #ffffff;
+  font-size: 16px;
+}
+.employee-label {
+  color: #ffffff;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.hr-line {
+  border: 1px solid #cbd5e1;
+  width: 100%;
+}
